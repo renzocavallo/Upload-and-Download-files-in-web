@@ -1,0 +1,129 @@
+h1{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+    cursor: default;
+  }
+  
+  form{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    left: 375px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+  }
+  
+  #file{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration-line: underline;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    position: relative;
+    top: 70px;
+    right: -90px;
+  }
+  
+  #bton{
+    position: relative;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    top: 110px;
+    right: -80px;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  #react{
+    font-size: 11rem;
+    position: relative;
+    right: -80px;
+    top: 60px;
+  }
+  
+  #bton-files{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 435px;
+    left: 635px;
+  }
+
+  #bton-files a{
+    color: white;
+    text-decoration: none;
+  }
+
+  #node{
+    font-size: 11rem;
+    position: relative;
+    right: -880px;
+    top: 60px;
+  }
+  
+  h2{
+    position: relative;
+    bottom: 30px;
+    font-size:small;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+    margin-top: 150px;
+    cursor: default;
+  }
+
+  @media screen and (max-width: 375px) {
+
+    h1{
+      font-size: medium;
+    }
+
+    form{
+      width: 300px;
+      height: 100px;
+      left: 38px;
+    }
+
+    #file{
+      font-size: small;
+      left: -20px;
+      top: 5px;
+      transform: scale(0.8);
+    }
+
+    #bton{
+      right: -180px;
+      top: 25px;
+      transform: scale(0.8);
+    
+    }
+
+    #react{
+      transform: scale(0.3);
+      left: -10px;
+      top: 10px;
+    }
+
+    #bton-files{
+      left: 145px;
+      top: 220px;
+      transform: scale(0.8);
+    }
+
+    #node{
+      transform: scale(0.3);
+      left: 180px;
+      top: -160px;
+    }
+
+    h2{
+      top: -250px;
+      font-size: x-small;
+    }
+
+  }
